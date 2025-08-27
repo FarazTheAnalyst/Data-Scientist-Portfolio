@@ -88,7 +88,7 @@ if st.button("Predict Salary"):
                 ax.grid(True, linestyle="--", alpha=0.9)
                 sns.despine()
                 ax.text(
-                    x=0.1, y=0.9,
+                    x=0.1, y=0.8,
                     s="R² = 0.97\n\nMAE= = $3700",
                     transform=ax.transAxes,
                     fontsize=10, color="black", fontweight="bold"
@@ -117,6 +117,7 @@ st.markdown("---")
 st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
             """)
+
 
 
 

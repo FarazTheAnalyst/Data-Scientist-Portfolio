@@ -88,10 +88,10 @@ if st.button("Predict Salary"):
                 ax.grid(True, linestyle="--", alpha=0.9)
                 sns.despine()
                 ax.text(
-                    x=0.5, y=0.9,
+                    x=0.7, y=0.9,
                     s="R² = 0.97 | MAE= =3700",
                     transform=ax.transAxes,
-                    fontsize=10, color="black"
+                    fontsize=10, color="black", fontweight="bold"
                 )
                 st.pyplot(fig)
     
@@ -117,6 +117,7 @@ st.markdown("---")
 st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
             """)
+
 
 
 

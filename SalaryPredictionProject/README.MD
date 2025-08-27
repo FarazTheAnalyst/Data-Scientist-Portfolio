@@ -4,7 +4,7 @@
 
 ## 🔗 Links
 - 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/SalaryPredictionProject)
-- 🌐 [Live Streamlit App](https://python-code-hjtde2j3fqhj29bykfep5s.streamlit.app/)
+- 🌐 [Live Streamlit App](https://data-scientist-portfolio-yuw3xzhkrsxs3frrprs65e.streamlit.app/)
 
 An end-to-end machine learning solution that predicts salary ranges based on job characteristics, experience level, location, and education.  
 This project covers the complete ML lifecycle — from data preprocessing and model development to API deployment and a user-friendly web interface.
@@ -62,6 +62,7 @@ Ml_Resume_Projects/
 │── feature_importance.png                # Top 10 important features image
 ```
 ---
+
 
 
 

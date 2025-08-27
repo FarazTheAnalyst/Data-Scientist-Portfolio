@@ -3,7 +3,7 @@
 ---
 
 ## 🔗 Links
-- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Python-Code/tree/main/Ml_Resume_Projects)
+- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/SalaryPredictionProject)
 - 🌐 [Live Streamlit App](https://python-code-hjtde2j3fqhj29bykfep5s.streamlit.app/)
 
 An end-to-end machine learning solution that predicts salary ranges based on job characteristics, experience level, location, and education.  
@@ -62,6 +62,7 @@ Ml_Resume_Projects/
 │── feature_importance.png                # Top 10 important features image
 ```
 ---
+
 
 
 

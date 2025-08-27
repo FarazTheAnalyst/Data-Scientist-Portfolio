@@ -12,7 +12,7 @@ This project covers the complete ML lifecycle — from data preprocessing and mo
 ---
 
 ## 📸 Project Screenshot
-![Job Salary Predictor](https://github.com/FarazTheAnalyst/Python-Code/blob/main/Ml_Resume_Projects/streamlit%20fronend.png)
+![Job Salary Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/SalaryPredictionProject/streamlit%20fronend.png)
 
 ---
 ## 📌 Project Overview
@@ -62,5 +62,6 @@ Ml_Resume_Projects/
 │── feature_importance.png                # Top 10 important features image
 ```
 ---
+
 
 

@@ -82,7 +82,7 @@ if st.button("Predict Salary"):
                 #sns.set_palette("pastel")
                 plt.style.use("fivethirtyeight")
                 fig, ax = plt.subplots(figsize=(8, 2))
-                ax.lineplot(years, salaries, marker="o", linewidth=3, color="#2E86AB", markersize=6)
+                ax.plot(years, salaries, marker="o", linewidth=3, color="#2E86AB", markersize=6)
                 ax.set_xlabel("Years of Experience", fontsize=12)
                 ax.set_ylabel("Predicted Salary (USD)", fontsize=12)
                 ax.set_title("Salary Growth Projection")
@@ -118,6 +118,7 @@ st.markdown("---")
 st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
             """)
+
 
 
 

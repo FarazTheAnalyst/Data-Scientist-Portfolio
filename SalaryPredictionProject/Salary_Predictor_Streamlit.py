@@ -78,9 +78,8 @@ if st.button("Predict Salary"):
                         salaries.append(resp.json()["predicted_salary"])
                         
                 #Plot salary progression
-                #sns.set_theme(style="whitegrid")
-                #sns.set_palette("pastel")
-                plt.style.use("fivethirtyeight")
+                sns.set_theme(style="whitegrid")
+                sns.set_palette("pastel")
                 fig, ax = plt.subplots(figsize=(8, 2))
                 ax.plot(years, salaries, marker="o", linewidth=3, color="#2E86AB", markersize=6)
                 ax.set_xlabel("Years of Experience", fontsize=12)
@@ -118,6 +117,7 @@ st.markdown("---")
 st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
             """)
+
 
 
 

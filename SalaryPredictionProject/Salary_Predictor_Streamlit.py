@@ -80,6 +80,7 @@ if st.button("Predict Salary"):
                 #Plot salary progression
                 #sns.set_theme(style="whitegrid")
                 #sns.set_palette("pastel")
+                plt.style.use("fivethiryeight")
                 fig, ax = plt.subplots(figsize=(8, 2))
                 ax.linrplot(years, salaries, marker="o", linewidth=3, color="#2E86AB", markersize=6)
                 ax.set_xlabel("Years of Experience", fontsize=12)
@@ -117,6 +118,7 @@ st.markdown("---")
 st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
             """)
+
 
 
 

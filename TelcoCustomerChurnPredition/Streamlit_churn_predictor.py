@@ -79,7 +79,7 @@ with col1:
                     result = response.json()
                     
                     st.metric("Chrun Probability", f"{result['churn_probability']:.0%}")
-                    st.metric("Prediction", "Churn" if result["churn_prediction"])
+                    st.metric("Prediction", "Churn" if result["churn_prediction"] == 1 else "Not Churn")
                     st.metric("Risk Level", result["risk_level"])
                     
                     fig = px.indicator(
@@ -187,4 +187,5 @@ st.markdown("""
     
     
     
+
         

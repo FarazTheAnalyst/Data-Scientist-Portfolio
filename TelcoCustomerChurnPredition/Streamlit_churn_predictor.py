@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 st.sidebar.subheader("Top important Features")
-st.sidebar.image("", caption="Top features")
+st.sidebar.image("TelcoCustomerChurnPredition/model/feature_importances_xgboost.png", caption="Top features")
                      
 
 st.title("Customer Churn Prediction Dashboard")
@@ -194,6 +194,7 @@ st.markdown("""
     
 
         
+
 
 
 

@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Customer Churn Predictor",
@@ -82,7 +83,7 @@ with col1:
                     st.metric("Prediction", "Churn" if result["churn_prediction"] == 1 else "Not Churn")
                     st.metric("Risk Level", result["risk_level"])
                     
-                    fig = px.indicator(
+                    fig = go.Figure(go.indicator(
                         mode="gauge+number+delta",
                         value=result["churn_probability"],
                         title="Churn Risk Gauge",
@@ -94,7 +95,7 @@ with col1:
                                    {"range": [0.3, 0.7], "color": "yellow"},
                                    {"range": [0.7, 1], "color": "red"}]
                         }
-                    )
+                    ))
                     st.plotly_chart(fig, use_container_width=True)
                     
                 else:
@@ -189,6 +190,7 @@ st.markdown("""
     
 
         
+
 
 
 

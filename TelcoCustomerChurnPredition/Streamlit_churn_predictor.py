@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.set_page_config(
-    page_title="Customer Chrun Predictor",
+    page_title="Customer Churn Predictor",
     page_icon="📊",
     layout="wide"
 )
@@ -189,3 +189,4 @@ st.markdown("""
     
 
         
+

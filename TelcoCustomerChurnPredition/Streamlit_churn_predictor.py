@@ -168,13 +168,13 @@ with col2:
                 st.error("Could no fetch scatter plot data.")
                 
         except Exception as e:
-            st.error(f"Could no connect to the Api. Error: {e}")
+            st.error(f"Could not connect to the Api. Error: {e}")
 
 # Footer
 st.markdown("---")
 st.markdown("""
-            *Data Sources from Kaggle Telco Customer Churn dataset. Prodictions are estimates based aon 
-            historical patterns.*
+            *Data source: Kaggle Telco Customer Churn dataset. Predictions are estimates based on historical patterns.*
+
             """)
                 
                 
@@ -190,6 +190,7 @@ st.markdown("""
     
 
         
+
 
 
 

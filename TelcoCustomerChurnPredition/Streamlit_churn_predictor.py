@@ -64,7 +64,7 @@ with col1:
                     "StreamingTV": streaming_tv,
                     "StreamingMovies": streaming_movies,
                     "Contract": contract,
-                    "PaperlessBilling": paperpless_billing,
+                    "PaperlessBilling": paperless_billing,
                     "PaymentMethod": payment_method,
                     "MonthlyCharges": monthly_charges,
                     "TotalCharges": total_charges
@@ -189,4 +189,5 @@ st.markdown("""
     
 
         
+
 

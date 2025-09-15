@@ -84,16 +84,18 @@ with col1:
                     st.metric("Risk Level", result["risk_level"])
                     
                     fig = go.Figure(go.Indicator(
-                        mode="gauge+number+delta",
-                        value=result['churn_probability'],
+                        mode="gauge+number",
+                        value=result["churn_probability"],  # make sure this is between 0–1
                         title={"text": "Churn Risk Gauge"},
-                        domain={'x': [0, 1], 'y': [0, 1]},
-                        gauge={"axis": {"range": [0, 1]},
-                               "bar": {"color": "darkblue"},
-                               "steps": [
-                                   {"range": [0, 0.3], "color": "green"},
-                                   {"range": [0.3, 0.7], "color": "yellow"},
-                                   {"range": [0.7, 1], "color": "red"}]
+                        domain={"x": [0, 1], "y": [0, 1]},
+                        gauge={
+                                "axis": {"range": [0, 1]},
+                                "bar": {"color": "darkblue", "thickness": 0.3},
+                                "steps": [
+                                    {"range": [0, 0.3], "color": "green"},
+                                    {"range": [0.3, 0.7], "color": "yellow"},
+                                    {"range": [0.7, 1], "color": "red"}
+                                ]
                         }
                     ))
                     st.plotly_chart(fig, use_container_width=True)
@@ -190,6 +192,7 @@ st.markdown("""
     
 
         
+
 
 
 

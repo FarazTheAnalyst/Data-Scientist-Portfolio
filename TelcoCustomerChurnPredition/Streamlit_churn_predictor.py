@@ -11,6 +11,10 @@ st.set_page_config(
     layout="wide"
 )
 
+st.sidebar.subheader("Top important Features")
+st.sidebar.image("", caption="Top features")
+                     
+
 st.title("Customer Churn Prediction Dashboard")
 st.markdown("""
             Predict customer churn probability and identify at-risk customers.
@@ -190,6 +194,7 @@ st.markdown("""
     
 
         
+
 
 
 

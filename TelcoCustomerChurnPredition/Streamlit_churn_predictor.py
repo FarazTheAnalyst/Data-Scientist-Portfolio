@@ -88,14 +88,12 @@ with col1:
                         value=result['churn_probability'],
                         title={"text": "Churn Risk Gauge"},
                         domain={'x': [0, 1], 'y': [0, 1]},
-                        gauge={
-                            "axis": {"range": [0, 1]},
-                            "bar": {"color": "darblue"},
-                            "steps": [
-                                {"range": [0, 0.33], "color": "lightgreen"},
-                                {"range": [0.33, 0.66], "color": "yellow"},
-                                {"range": [0.66, 1], "color": "red"}
-                                ]
+                        gauge={"axis": {"range": [0, 1]},
+                               "bar": {"color": "darkblue"},
+                               "steps": [
+                                   {"range": [0, 0.3], "color": "green"},
+                                   {"range": [0.3, 0.7], "color": "yellow"},
+                                   {"range": [0.7, 1], "color": "red"}]
                         }
                     ))
                     st.plotly_chart(fig, use_container_width=True)
@@ -192,6 +190,7 @@ st.markdown("""
     
 
         
+
 
 
 

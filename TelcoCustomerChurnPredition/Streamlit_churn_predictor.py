@@ -33,7 +33,7 @@ with st.sidebar.form("customer_form"):
     tech_support = st.selectbox("Tech Support", ["Yes", "No", "No internet service"])
     streaming_tv = st.selectbox("Streaming Tv", ["Yes", "No", "No internet service"])
     streaming_movies = st.selectbox("Streaming Movies", ["Yes", "No", "No internet service"])
-    contract = st.selectbox("Contract", ["Month-to-month", "One-year", "two-year"])
+    contract = st.selectbox("Contract", ["Month-to-month", "One-year", "tWO-year"])
     paperless_billing = st.selectbox("Paperless Billing", ["Yes", "No"])
     payment_method = st.selectbox("Payment Method", ["Electronic", "Mailed", "Bank Transfer (automatic)", "Credit card (automatic)"])
     monthly_charges = st.slider("Monthly Charges ($)", 0, 120, 65)
@@ -190,6 +190,7 @@ st.markdown("""
     
 
         
+
 
 
 

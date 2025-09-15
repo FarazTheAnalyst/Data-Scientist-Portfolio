@@ -90,6 +90,7 @@ with col1:
                         domain={'x': [0, 1], 'y': [0, 1]},
                         gauge={
                             "axis": {"range": [0, 1]},
+                            "bar": {"color": "darblue"},
                             "steps": [
                                 {"range": [0, 0.33], "color": "lightgreen"},
                                 {"range": [0.33, 0.66], "color": "yellow"},
@@ -191,6 +192,7 @@ st.markdown("""
     
 
         
+
 
 
 

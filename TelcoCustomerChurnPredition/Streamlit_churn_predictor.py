@@ -162,7 +162,7 @@ with col2:
                 
                 ax.set_xlabel("Tenure (months)")
                 ax.set_ylabel("Monthly Charges ($)")
-                ax.legend()
+                ax.legend(loc="center left", bbox_to_anchor=(1, 0.5))
                 st.pyplot(fig)
             else:
                 st.error("Could no fetch scatter plot data.")
@@ -190,6 +190,7 @@ st.markdown("""
     
 
         
+
 
 
 

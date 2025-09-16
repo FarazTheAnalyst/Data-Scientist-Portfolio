@@ -26,8 +26,7 @@ This project covers the complete ML lifecycle — from data preprocessing and fe
 
 ## ⚙️ Technical Architecture
 
-###Data Processing
-
+- Data Processing
 - Cleaned missing values and encoded categorical variables
 - Addressed class imbalance (73:27 ratio) using SMOTE
 - Feature Engineering
@@ -39,7 +38,7 @@ This project covers the complete ML lifecycle — from data preprocessing and fe
 - XGBoost
 - Performed hyperparameter tuning for XGBoost
 
-## Model Comparison Results
+## 🍨 Model Comparison Results
 
 - **Model	Accuracy	Precision (0)	Recall (0)	F1 (0)	Precision (1)	Recall (1)	F1 (1)	AUC**
 - **Logistic Regression	0.8048	0.8432	0.7424	0.7896	0.7754	0.8656	0.8180	0.8040**

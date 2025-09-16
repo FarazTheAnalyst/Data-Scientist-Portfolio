@@ -85,7 +85,7 @@ with col1:
                     
                     st.metric("Chrun Probability", f"{result['churn_probability']:.0%}", border=True)
                     st.metric("Prediction", "Churn" if result["churn_prediction"] == 1 else "Not Churn", border=True)
-                    st.metric("Risk Level", result["risk_level"], , border=True)
+                    st.metric("Risk Level", result["risk_level"], border=True)
                     
                     fig = go.Figure(go.Indicator(
                         mode="gauge+number+delta",
@@ -194,6 +194,7 @@ st.markdown("""
     
 
         
+
 
 
 

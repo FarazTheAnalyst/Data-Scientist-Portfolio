@@ -89,15 +89,16 @@ Visualization: Matplotlib, Plotly
 
 ## 📂 Project Structure
 Customer_Churn_Prediction/
-│── dataset/                           # Dataset files  
-│── models/                            # Trained models  
-│── Churn_Model_Training.ipynb         # Data cleaning, EDA, model training  
-│── Fastapi_Churn_predictor.py/        # FastAPI app files  
-│── README.md                          # Project documentation   
-│── Streamlit_churn_predictor.py       # Streamlit dashboard files 
-│── fronend_streamlit.png              # Streamlit frond end image
-│── requirements.txt                   # Dependencies  
-│── churn_factors.png                  # Top churn drivers visualization  
+
+│── dataset/                        # Dataset files  
+│── models/                         # Trained models  
+│── Churn_Model_Training.ipynb      # Data cleaning, EDA, and model training  
+│── Fastapi_Churn_Predictor.py      # FastAPI app for churn prediction  
+│── Streamlit_Churn_Predictor.py    # Streamlit dashboard app  
+│── frontend_streamlit.png          # Streamlit frontend screenshot  
+│── churn_factors.png               # Visualization of top churn drivers  
+│── requirements.txt                # Project dependencies  
+│── README.md                       # Project documentation    
 
 
 ---

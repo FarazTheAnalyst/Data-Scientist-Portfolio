@@ -11,7 +11,7 @@ This project covers the complete ML lifecycle — from data preprocessing and fe
 ---
 
 📸 Project Screenshot
-![Customer Churn Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/TelcoCustomerChurnPredition/streamlit%20fronend.png)
+![Customer Churn Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/TelcoCustomerChurnPredition/fronend_streamlit.png)
 
 --
 

@@ -2,8 +2,8 @@ Customer Churn Prediction
 ---
 
 ## 🔗 Links
-- 📘 GitHub Repository
-- 🌐 Live Streamlit App
+- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/TelcoCustomerChurnPredition)
+- 🌐 [Live Streamlit App](https://data-scientist-portfolio-7swrze5vljzzswcecxemtz.streamlit.app/)
 
 An end-to-end machine learning solution that predicts customer churn for a telecommunications company.
 This project covers the complete ML lifecycle — from data preprocessing and feature engineering to API deployment and a user-friendly web interface for real-time predictions and insights.

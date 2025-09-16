@@ -92,9 +92,10 @@ Customer_Churn_Prediction/
 │── dataset/                           # Dataset files  
 │── models/                            # Trained models  
 │── Churn_Model_Training.ipynb         # Data cleaning, EDA, model training  
-│── Fastapi_Churn_predictor.py/         # FastAPI app files  
+│── Fastapi_Churn_predictor.py/        # FastAPI app files  
 │── README.md                          # Project documentation   
 │── Streamlit_churn_predictor.py       # Streamlit dashboard files 
+│── fronend_streamlit.png              # Streamlit frond end image
 │── requirements.txt                   # Dependencies  
 │── churn_factors.png                  # Top churn drivers visualization  
 

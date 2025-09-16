@@ -1,57 +1,68 @@
 Customer Churn Prediction
+---
 
-🔗 Links
-📘 GitHub Repository
-🌐 Live Streamlit App
+## 🔗 Links
+- 📘 GitHub Repository
+- 🌐 Live Streamlit App
 
 An end-to-end machine learning solution that predicts customer churn for a telecommunications company.
 This project covers the complete ML lifecycle — from data preprocessing and feature engineering to API deployment and a user-friendly web interface for real-time predictions and insights.
 
+---
+
 📸 Project Screenshot
-Customer Churn Predictor Dashboard
+![Customer Churn Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/TelcoCustomerChurnPredition/streamlit%20fronend.png)
 
-📌 Project Overview
+--
 
-Built a machine learning system to predict customer churn.
+## 📌 Project Overview
 
-Implemented data preprocessing, feature engineering, and handled class imbalance.
+- Built a machine learning system to predict customer churn.
 
-Compared multiple algorithms (Logistic Regression, Random Forest, XGBoost) with hyperparameter tuning.
+- Implemented data preprocessing, feature engineering, and handled class imbalance.
 
-Deployed an API with FastAPI and an interactive Streamlit dashboard with business insights.
+- Compared multiple algorithms (Logistic Regression, Random Forest, XGBoost) with hyperparameter tuning.
 
-⚙️ Technical Architecture
+- Deployed an API with FastAPI and an interactive Streamlit dashboard with business insights.
 
-Data Processing
+---
 
-Cleaned missing values and encoded categorical variables
+## ⚙️ Technical Architecture
 
-Addressed class imbalance (73:27 ratio) using SMOTE
+###Data Processing
 
-Feature Engineering
+- Cleaned missing values and encoded categorical variables
 
-Created new features (e.g., tenure groups, payment categories) to boost model performance
+- Addressed class imbalance (73:27 ratio) using SMOTE
 
-Model Development
+- Feature Engineering
 
-Trained and compared:
+- Created new features (e.g., tenure groups, payment categories) to boost model performance
 
-Logistic Regression
+- Model Development
 
-Random Forest
+- Trained and compared:
 
-XGBoost
+- Logistic Regression
 
-Performed hyperparameter tuning for XGBoost
+- Random Forest
 
-Model Comparison Results
+- XGBoost
 
-Model	Accuracy	Precision (0)	Recall (0)	F1 (0)	Precision (1)	Recall (1)	F1 (1)	AUC
-Logistic Regression	0.8048	0.8432	0.7424	0.7896	0.7754	0.8656	0.8180	0.8040
-Random Forest	0.8507	0.8618	0.8306	0.8459	0.8407	0.8704	0.8553	0.8505
-XGBoost	0.8406	0.8508	0.8208	0.8355	0.8313	0.8599	0.8454	0.8403
+- Performed hyperparameter tuning for XGBoost
 
-Best Parameters (XGBoost):
+---
+
+### Model Comparison Results
+
+- Model	Accuracy	Precision (0)	Recall (0)	F1 (0)	Precision (1)	Recall (1)	F1 (1)	AUC
+- Logistic Regression	0.8048	0.8432	0.7424	0.7896	0.7754	0.8656	0.8180	0.8040
+- Random Forest	0.8507	0.8618	0.8306	0.8459	0.8407	0.8704	0.8553	0.8505
+- XGBoost	0.8406	0.8508	0.8208	0.8355	0.8313	0.8599	0.8454	0.8403
+
+
+
+#### Best Parameters (XGBoost):
 
 {
   "Learning_rate": 0.01,
@@ -61,33 +72,39 @@ Best Parameters (XGBoost):
 }
 
 
-Best AUC Score: 0.9067
 
-API Development
+**Best AUC Score: 0.9067**
 
-Developed a RESTful API with FastAPI for real-time churn predictions
+- API Development
 
-Web Interface
+- Developed a RESTful API with FastAPI for real-time churn predictions
 
-Built an interactive Streamlit dashboard with churn probability visualization and business insights
+- Web Interface
 
-🏆 Key Achievements
+- Built an interactive Streamlit dashboard with churn probability visualization and business insights
 
-Handled severe class imbalance with SMOTE
+---
 
-Achieved 82% precision and 78% recall on churned customers (minority class)
+## 🏆 Key Achievements
 
-Identified key churn factors:
+- Handled severe class imbalance with SMOTE
 
-Contract Type
+- Achieved 82% precision and 78% recall on churned customers (minority class)
 
-Tenure
+- Identified key churn factors:
 
-Monthly Charges
+- Contract Type
 
-Delivered an intuitive dashboard for scenario testing & interventions
+- Tenure
 
-🛠️ Tech Stack
+- Monthly Charges
+
+- Delivered an intuitive dashboard for scenario testing & interventions
+
+
+---
+
+## 🛠️ Tech Stack
 
 Programming: Python
 
@@ -101,7 +118,9 @@ Data Processing: Pandas, NumPy
 
 Visualization: Matplotlib, Plotly
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
 Customer_Churn_Prediction/
 │── dataset/                           # Dataset files  
 │── models/                            # Trained models  
@@ -112,7 +131,9 @@ Customer_Churn_Prediction/
 │── README.md                          # Project documentation  
 │── churn_factors.png                  # Top churn drivers visualization  
 
-📈 Business Impact
+---
+
+## 📈 Business Impact
 
 This project empowers the telecommunications company to:
 

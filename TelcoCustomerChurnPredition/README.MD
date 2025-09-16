@@ -79,11 +79,11 @@ This project covers the complete ML lifecycle — from data preprocessing and fe
 ## 🛠️ Tech Stack
 
 Programming: Python
-ML Frameworks: **Scikit-learn, XGBoost, Imbalanced-learn**
-API: **FastAPI**
-Web App: **Streamlit**
-Data Processing: **Pandas, NumPy**
-Visualization: **Matplotlib, Plotly**
+- ML Frameworks: **Scikit-learn, XGBoost, Imbalanced-learn**
+- API: **FastAPI**
+- Web App: **Streamlit**
+- Data Processing: **Pandas, NumPy**
+- Visualization: **Matplotlib, Plotly**
 
 ---
 

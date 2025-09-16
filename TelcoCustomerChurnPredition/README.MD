@@ -41,9 +41,9 @@ This project covers the complete ML lifecycle — from data preprocessing and fe
 ## 🍨 Model Comparison Results
 
 - **Model	Accuracy	Precision (0)	Recall (0)	F1 (0)	Precision (1)	Recall (1)	F1 (1)	AUC**
-- **Logistic Regression	0.8048	0.8432	0.7424	0.7896	0.7754	0.8656	0.8180	0.8040**
-- **Random Forest	0.8507	0.8618	0.8306	0.8459	0.8407	0.8704	0.8553	0.8505**
-- **XGBoost	0.8406	0.8508	0.8208	0.8355	0.8313	0.8599	0.8454	0.8403**
+- **Logistic Regression**:	0.8048	0.8432	0.7424	0.7896	0.7754	0.8656	0.8180	0.8040
+- **Random Forest	0.8507**:	0.8618	0.8306	0.8459	0.8407	0.8704	0.8553	0.8505
+- **XGBoost**:	0.8406	0.8508	0.8208	0.8355	0.8313	0.8599	0.8454	0.8403
 
 #### Best Parameters (XGBoost):
 

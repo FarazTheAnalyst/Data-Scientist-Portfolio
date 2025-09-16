@@ -83,10 +83,9 @@ with col1:
                 if response.status_code == 200:
                     result = response.json()
 
-                    col1, col2, col3 = st.columns(3)
-                    col1.metric("Chrun Probability", f"{result['churn_probability']:.0%}", border=True)
-                    col2.metric("Prediction", "Churn" if result["churn_prediction"] == 1 else "Not Churn", border=True)
-                    col3.metric("Risk Level", result["risk_level"], border=True)
+                    st.metric("Chrun Probability", f"{result['churn_probability']:.0%}", border=True)
+                    st.metric("Prediction", "Churn" if result["churn_prediction"] == 1 else "Not Churn", border=True)
+                    st.metric("Risk Level", result["risk_level"], border=True)
                     
                     fig = go.Figure(go.Indicator(
                         mode="gauge+number+delta",
@@ -195,6 +194,7 @@ st.markdown("""
     
 
         
+
 
 
 

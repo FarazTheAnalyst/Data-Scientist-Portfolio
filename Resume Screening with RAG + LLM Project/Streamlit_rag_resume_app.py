@@ -189,7 +189,7 @@ if mode == "Single Candidate":
                         with col1:
                             st.subheader("💡 Skills Matched")
                             for skill in result["skills Matched"]:
-                                st.info(f"• {skill"}
+                                st.info(f"• {skill}"
                                 
                         with col2:
                             st.subheader("🔍 Missing Skills")

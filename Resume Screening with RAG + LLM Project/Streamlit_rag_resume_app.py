@@ -87,7 +87,7 @@ st.sidebar.info("""
     5. Get hiring recommendations
 """)
 
-# if mode == "Single Candidate":
+f mode == "Single Candidate":
     st.subheader("📄 Screen a Single Candidate")
     
     col1, col2 = st.columns([1, 1])

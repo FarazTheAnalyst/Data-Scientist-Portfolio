@@ -87,7 +87,7 @@ st.sidebar.info("""
     5. Get hiring recommendations
 """)
 
-if mode == "Single Candidate":
+# if mode == "Single Candidate":
     st.subheader("📄 Screen a Single Candidate")
     
     col1, col2 = st.columns([1, 1])
@@ -162,46 +162,46 @@ if mode == "Single Candidate":
                                 ]
                             }
                             ))
-                            fig.update_layout(height=250)
-                            st.plotly_chart(fig, use_container_width=True)
+                        fig.update_layout(height=250)
+                        st.plotly_chart(fig, use_container_width=True)
+                        
+                        # Detailed evaluation
+                        st.subheader("📋 Detailed Evaluation")
+                        with st.expander("View Full Evaluation", expanded=True):
+                            st.write(result["detailed_evaluation"])
                             
-                            # Detailed evaluation
-                            st.subheader("📋 Detailed Evaluation")
-                            with st.expander("View Full Evaluation", expanded=True):
-                                st.write(result["detailed_evaluation"])
+                        # Strengths and Weaknesses
+                        col1, col2 = st.columns(2)
+                        
+                        with col1:
+                            st.header("✅ Strengths")
+                            for stregnth in result["strengths"]:
+                                st.success(f"• {strength}")
                                 
-                            # Strengths and Weaknesses
-                            col1, col2 = st.columns(2)
-                            
-                            with col1:
-                                st.header("✅ Strengths")
-                                for stregnth in result["strengths"]:
-                                    st.success(f"• {strength}")
-                                    
-                            with col2:
-                                st.subheader("❌ Weaknesses")
-                                for weakness in result["weaknesses"]:
-                                    st.error(f"• {weakness}")
-                                    
-                            # Skills Analysis
-                            col1, col2 = st.columns(2)
-                            
-                            with col1:
-                                st.subheader("💡 Skills Matched")
-                                for skill in result["skills Matched"]:
-                                    st.info(f"• {skill"}
-                                    
-                            with col2:
-                                st.subheader("🔍 Missing Skills")
-                                for skill in result["missing_skills"]:
-                                    st.warning(f"• {skill})
-                                    
-                            # Relevant Experience
-                            sit.subheader("📚 Relevant Experience Found")
-                            for i, exp in enumerate(result["relevant_experience"][:3]:
-                                with st.expander(f"Match #{i+1}"):
-                                    st.write(exp)
-                                    
+                        with col2:
+                            st.subheader("❌ Weaknesses")
+                            for weakness in result["weaknesses"]:
+                                st.error(f"• {weakness}")
+                                
+                        # Skills Analysis
+                        col1, col2 = st.columns(2)
+                        
+                        with col1:
+                            st.subheader("💡 Skills Matched")
+                            for skill in result["skills Matched"]:
+                                st.info(f"• {skill"}
+                                
+                        with col2:
+                            st.subheader("🔍 Missing Skills")
+                            for skill in result["missing_skills"]:
+                                st.warning(f"• {skill})
+                                
+                        # Relevant Experience
+                        sit.subheader("📚 Relevant Experience Found")
+                        for i, exp in enumerate(result["relevant_experience"][:3]:
+                            with st.expander(f"Match #{i+1}"):
+                                st.write(exp)
+                                
                     else:
                         st.error(f"API Error: {response.text}")
                         

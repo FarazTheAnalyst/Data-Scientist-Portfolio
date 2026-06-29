@@ -62,7 +62,7 @@ RAG Resume Screening System/
 │── README.md                             # Project documentation
 │── Streamlit Dashboard image.png         # Streamlit Dashboard image
 │── Streamlit_rag_resume_app.py           # Streamlit web app
-│── rag_resume_training.ipnb           # Data cleaining and training in jupytornotbook   
+│── rag_resume_training.ipnb              # Data cleaining and training in jupytornotbook   
 
 ```
 ---

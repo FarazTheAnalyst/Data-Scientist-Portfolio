@@ -1,94 +1,63 @@
-🧠 RAG Resume Screening System
+#🧠 RAG Resume Screening System
+
+---
+
+## 🔗 Links
+- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/SalaryPredictionProject)
+- 🌐 [Live Streamlit App](https://data-scientist-portfolio-yuw3xzhkrsxs3frrprs65e.streamlit.app/)
+
 An intelligent resume screening system that combines Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) to automate candidate evaluation and streamline the hiring process.
 
-📋 Table of Contents
-Overview
+---
 
-Features
+## 📸 Project Screenshot
+![Job Salary Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/SalaryPredictionProject/streamlit%20fronend.png)
 
-Tech Stack
+---
+## 📌 Project Overview
+- Built a machine learning system to predict salary ranges.  
+- Implemented data preprocessing, multiple model comparisons, API deployment, and interactive web app.  
+- Designed with a focus on real-time usability and interpretability.  
 
-Dataset
+---
 
-Installation
+## ⚙️ Technical Architecture
+**Data Processing:** Cleaned and preprocessed salary data using `pandas` and `scikit-learn`, handling missing values and outliers.  
+**Model Development:** Compared Random Forest, Decision Tree, and Linear Regression; selected **Random Forest** for best performance.  
+**API Development:** Built RESTful API using **FastAPI** for real-time salary predictions.  
+**Web Interface:** Developed an **interactive Streamlit app** with input forms and salary visualization.  
+**Feature Importance:** Implemented model interpretation to identify key factors influencing salary.  
 
-Usage
+---
 
-API Endpoints
+## 🏆 Key Achievements
+- Achieved **R² = 0.97** and **MAE = $3,700** with Random Forest.  
+- Engineered a full ML pipeline from data collection → deployment.  
+- Delivered an interactive **web interface** with salary progression visualizations.  
+- Optimized feature selection for **interpretable, business-relevant insights**.  
 
-Project Structure
+---
 
-Screenshots
+## 🛠️ Tech Stack
+- **Programming:** Python  
+- **ML Frameworks:** Scikit-learn (Random Forest, Decision Tree, Linear Regression)  
+- **API:** FastAPI  
+- **Web App:** Streamlit  
+- **Data Processing:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
 
-Contributing
 
-License
 
-🎯 Overview
-This project implements a production-ready resume screening system using advanced NLP techniques. It leverages RAG (Retrieval-Augmented Generation) to intelligently match candidates with job descriptions and generate comprehensive evaluations with match scores, strengths, weaknesses, and hiring recommendations.
-
-Key Benefits
-⏱️ 75% Reduction in screening time
-
-🎯 92% Relevance in candidate retrieval
-
-💰 40% Decrease in cost-per-hire
-
-📊 Data-driven hiring decisions
-
-🔍 Explainable AI with transparent evaluations
-
-✨ Features
-Core Functionality
-Semantic Search: Find relevant candidates using natural language queries
-
-Single Candidate Screening: Upload a resume and get instant evaluation
-
-Batch Processing: Compare multiple candidates simultaneously
-
-Skill Gap Analysis: Identify missing skills compared to job requirements
-
-Interactive Dashboard: Visual analytics with candidate ranking
-
-Technical Features
-🗄️ FAISS Vector Database with 10,000+ text chunks
-
-🧠 Sentence Transformers for semantic embeddings
-
-🤖 Hugging Face LLMs for evaluation generation
-
-🚀 FastAPI backend with comprehensive endpoints
-
-🎨 Streamlit interactive web interface
-
-📈 Real-time visualizations with Plotly
-
-🛠️ Tech Stack
-Backend
-Technology	Purpose
-Python 3.8+	Core programming language
-FastAPI	RESTful API framework
-PyTorch	Deep learning framework
-Hugging Face Transformers	LLM integration
-Sentence Transformers	Text embeddings
-FAISS	Vector similarity search
-Uvicorn	ASGI server
-Frontend
-Technology	Purpose
-Streamlit	Web application framework
-Plotly	Interactive visualizations
-Pandas	Data manipulation
-Data Processing
-Technology	Purpose
-PyPDF2	PDF text extraction
-python-docx	DOCX text extraction
-NumPy	Numerical operations
-Scikit-learn	Data preprocessing
-📊 Dataset
-The system uses the AI Resume Matcher Dataset from Kaggle, containing:
-
-2,000+ synthetic candidate profiles
-
-5 columns: Name, Experience_Years, Skills, Education, Applied_Job_Role
-
-Diverse roles: Data Scientist, Product Manager, Software Engineer, etc.
+## 📂 Project Structure
+```
+Ml_Resume_Projects/
+│── dataset/                              # Dataset
+│── models/                               # Trained models
+│── Salary_Predictor_Streamlit.py         # Streamlit web app
+│── Salary_Predictor_Train.ipnb           # Data cleaining and training in jupytornotbook   
+│── Fastapi_Salary_Predictor/             # FastAPI app files
+│── requirements.txt                      # Dependencies
+│── README.md                             # Project documentation
+│── feature_importance.png                # Top 10 important features image
+```
+---

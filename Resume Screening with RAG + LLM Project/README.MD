@@ -11,14 +11,11 @@ An intelligent resume screening system that combines Retrieval-Augmented Generat
 ---
 
 ## 📸 Project Screenshot
-![Job Salary Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/SalaryPredictionProject/streamlit%20fronend.png)
+![Job Salary Predictor](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/blob/main/Resume%20Screening%20with%20RAG%20%2B%20LLM%20Project/Streamlit%20Dashboard%20image.png)
 
 ---
 ## 📌 Project Overview
-- Built a machine learning system to predict salary ranges.  
-- Implemented data preprocessing, multiple model comparisons, API deployment, and interactive web app.  
-- Designed with a focus on real-time usability and interpretability.  
-
+- This project implements a production-ready resume screening system using advanced NLP techniques. It leverages RAG (Retrieval-- - Augmented Generation) to intelligently match candidates with job descriptions and generate comprehensive evaluations with match - scores, strengths, weaknesses, and hiring recommendations.
 ---
 
 ## ⚙️ Technical Architecture
@@ -31,33 +28,41 @@ An intelligent resume screening system that combines Retrieval-Augmented Generat
 ---
 
 ## 🏆 Key Achievements
-- Achieved **R² = 0.97** and **MAE = $3,700** with Random Forest.  
-- Engineered a full ML pipeline from data collection → deployment.  
-- Delivered an interactive **web interface** with salary progression visualizations.  
-- Optimized feature selection for **interpretable, business-relevant insights**.  
+- ⏱️ 75% Reduction in screening time
+
+- 🎯 92% Relevance in candidate retrieval
+
+- 💰 40% Decrease in cost-per-hire
+
+- 📊 Data-driven hiring decisions
+
+- 🔍 Explainable AI with transparent evaluations
 
 ---
 
 ## 🛠️ Tech Stack
 - **Programming:** Python  
-- **ML Frameworks:** Scikit-learn (Random Forest, Decision Tree, Linear Regression)  
-- **API:** FastAPI  
+- **Deep learning Frameworks:** PyTorch, Transformers, Fine-tuning
 - **Web App:** Streamlit  
-- **Data Processing:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
+- **Machine Learning:** RAG Architecture, Semantic Search, Vector Embeddings
+- **NLP:** Text Processing, Tokenization, Semantic Similarity
+- **MLOps:** FastAPI, Streamlit, Model Deployment
+- **Data Engineering:** Vector Databases, FAISS, Batch Processing
+- **Python Libraries:** Pandas, NumPy, Scikit-learn, Hugging Face
+- **Visualization:** Matplotlib, Plotly, Scikit-learn
 
 
 
 ## 📂 Project Structure
 ```
-Ml_Resume_Projects/
+RAG Resume Screening System/
 │── dataset/                              # Dataset
 │── models/                               # Trained models
-│── Salary_Predictor_Streamlit.py         # Streamlit web app
-│── Salary_Predictor_Train.ipnb           # Data cleaining and training in jupytornotbook   
-│── Fastapi_Salary_Predictor/             # FastAPI app files
-│── requirements.txt                      # Dependencies
+│── FastApi-rag-resume.py                 # FastAPI app files
 │── README.md                             # Project documentation
-│── feature_importance.png                # Top 10 important features image
+│── Streamlit Dashboard image.png         # Streamlit Dashboard image
+│── Streamlit_rag_resume_app.py           # Streamlit web app
+│── rag_resume_training.ipnb           # Data cleaining and training in jupytornotbook   
+
 ```
 ---

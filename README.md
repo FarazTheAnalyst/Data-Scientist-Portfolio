@@ -71,15 +71,8 @@ RAG Resume Screening System/
 ```
 ---
 
-
-
-
-
-
-
----
-
 #2: Customer Churn Prediction
+
 ---
 
 ## 🔗 Links

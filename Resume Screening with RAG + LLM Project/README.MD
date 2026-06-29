@@ -3,8 +3,8 @@
 ---
 
 ## 🔗 Links
-- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/SalaryPredictionProject)
-- 🌐 [Live Streamlit App](https://data-scientist-portfolio-yuw3xzhkrsxs3frrprs65e.streamlit.app/)
+- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/Resume%20Screening%20with%20RAG%20%2B%20LLM%20Project)
+- 🌐 [Live Streamlit App](https://data-scientist-portfolio-vrg9tggbf9bals53d9xyvk.streamlit.app/)
 
 An intelligent resume screening system that combines Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) to automate candidate evaluation and streamline the hiring process.
 

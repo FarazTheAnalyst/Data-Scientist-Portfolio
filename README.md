@@ -2,7 +2,7 @@
 
 ---
 
-#🧠 RAG Resume Screening System
+#1: 🧠 RAG Resume Screening System
 
 ---
 
@@ -79,7 +79,7 @@ RAG Resume Screening System/
 
 ---
 
-Customer Churn Prediction
+#2: Customer Churn Prediction
 ---
 
 ## 🔗 Links
@@ -199,7 +199,7 @@ Customer_Churn_Prediction/
 
 ----
 
-# Salary Prediction Project
+#3: Salary Prediction Project
 
 ---
 

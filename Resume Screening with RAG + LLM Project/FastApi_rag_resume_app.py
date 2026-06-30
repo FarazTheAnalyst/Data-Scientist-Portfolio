@@ -27,7 +27,7 @@ chunks = rag_data["chunks"]
 metadata = rag_data["metadata"]
 
 # Load LLM
-model_name = "microsoft/DialoGPT-Medium"
+model_name = "microsoft/DialoGPT-large"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 device = "cuda" if torch.cuda.is_available() else "cpu"

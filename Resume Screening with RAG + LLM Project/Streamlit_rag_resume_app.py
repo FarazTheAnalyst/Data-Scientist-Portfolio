@@ -238,7 +238,7 @@ elif mode == "Compare Candidate":  # Fixed: Changed "elif" indentation
                         files.append(("resume_files", (file.name, file.getvalue(), file.type)))
                     
                     response = requests.post(
-                        "https://farazgill-RAG-Resume-Fastapi.hf.space/screen_candidate",
+                        "https://farazgill-RAG-Resume-Fastapi.hf.space/compare_candidates",
                         files=files,
                         data={"job_description": job_description}
                     )

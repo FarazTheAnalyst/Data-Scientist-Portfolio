@@ -238,7 +238,7 @@ elif mode == "Compare Candidate":  # Fixed: Changed "elif" indentation
                         files.append(("resume_files", (file.name, file.getvalue(), file.type)))
                     
                     response = requests.post(
-                        "http://localhost:8000/compare_candidates",
+                        "https://huggingface.co/spaces/farazgill/RAG-Resume-Fastapi",
                         files=files,
                         data={"job_description": job_description}
                     )

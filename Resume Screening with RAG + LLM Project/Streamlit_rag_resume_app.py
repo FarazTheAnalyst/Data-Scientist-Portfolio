@@ -115,7 +115,7 @@ if mode == "Single Candidate":
                     
                     # Fixed: changed https to http
                     response = requests.post(
-                        "https://huggingface.co/spaces/farazgill/RAG-Resume-Fastapi",
+                        "https://farazgill-RAG-Resume-Fastapi.hf.space",
                         files=files,
                         data=data
                     )
@@ -238,7 +238,7 @@ elif mode == "Compare Candidate":  # Fixed: Changed "elif" indentation
                         files.append(("resume_files", (file.name, file.getvalue(), file.type)))
                     
                     response = requests.post(
-                        "https://huggingface.co/spaces/farazgill/RAG-Resume-Fastapi",
+                        "https://farazgill-RAG-Resume-Fastapi.hf.space",
                         files=files,
                         data={"job_description": job_description}
                     )

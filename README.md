@@ -21,6 +21,7 @@
 
 ▸ LLM Integration: Engineered Hugging Face transformers (DialoGPT-medium) for structured 
   candidate evaluation generation with match scores and hiring recommendations
+  
 ---
 
 ## 📸 Project Screenshot

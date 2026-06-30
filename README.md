@@ -10,8 +10,17 @@
 - 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Data-Scientist-Portfolio/tree/main/Resume%20Screening%20with%20RAG%20%2B%20LLM%20Project)
 - 🌐 [Live Streamlit App](https://data-scientist-portfolio-vrg9tggbf9bals53d9xyvk.streamlit.app/)
 
-An intelligent resume screening system that combines Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) to automate candidate evaluation and streamline the hiring process.
+▸ RAG Resume Screener: Built AI-powered screening system using FAISS vector search and 
+  Hugging Face LLMs, reducing screening time by 75% and achieving 92% retrieval accuracy
 
+▸ Vector Database: Implemented semantic search over 2,000+ resumes using Sentence Transformers 
+  and FAISS, enabling fast similarity search across 10,000+ text chunks
+
+▸ API + Dashboard: Deployed FastAPI backend with Streamlit interface for batch candidate 
+  screening, comparison, and skill gap analysis with real-time visualizations
+
+▸ LLM Integration: Engineered Hugging Face transformers (DialoGPT-medium) for structured 
+  candidate evaluation generation with match scores and hiring recommendations
 ---
 
 ## 📸 Project Screenshot

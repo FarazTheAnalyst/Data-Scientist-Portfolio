@@ -115,7 +115,7 @@ if mode == "Single Candidate":
                     
                     # Fixed: changed https to http
                     response = requests.post(
-                        "http://localhost:8000/screen_candidate",
+                        "https://huggingface.co/spaces/farazgill/RAG-Resume-Fastapi",
                         files=files,
                         data=data
                     )
